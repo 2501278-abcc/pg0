@@ -1,0 +1,105 @@
+/* 全体の指定 */
+
+video{
+    width: 620px;
+    height: 600px;
+    margin-top: 0%;
+    display: flex;justify-self:center;
+}
+
+.body{
+    margin: 0;
+    width: 100%;
+    background-color: #fffdf7;
+    color: #333333;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fffdf7;
+}
+
+
+/* メニューAの指定 */
+
+#menuA{
+    background-color:#333333;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+#menuA ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#menuA a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#menuA a:hover{
+    background-color: oklch(74.008% 0.1189 238.329);
+}
+
+/* メニューBの指定 */
+
+.menuB{
+    background-color: #fffdf7;
+    color: #333;
+    text-align: center;
+}
+
+#soccer1{
+    text-align: center;
+    width: 600px;
+    height: 620px;
+    display: flex;justify-self:center;
+}
+
+
+/* メニューCの指定 */
+.menuC{
+    background-color: #fffdf7;
+    color: #333;
+    text-align:left;
+}
+
+.menuF{
+    background-color: #fffdf7;
+    color: #333333;
+}
+
+.menuF img{
+    text-align: center;
+    width: 600px;
+    height: 620px;
+    display: flex;justify-self:center;
+}
+
+.menuE{
+    width: 600px;
+    height: 620px;
+    display: flex;justify-self:center;
+}
+
+.menuG{
+    width: 620px;
+    height: 600px;
+    margin-top: 0%;
+    display: flex;justify-self:center;
+}
+
+.menuH{
+    width: 620px;
+    height: 600px;
+    margin-top: 0%;
+    display: flex;justify-self:center;
+}
+
+
